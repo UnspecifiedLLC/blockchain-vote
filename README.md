@@ -10,7 +10,7 @@ A voting application demo for codemash
 - node_modules/.bin/testrpc
 - npm install solc
 
-## Alternaticve install directions
+## Alternative install directions
 
 - git clone [this repo]
 - cd [cloned repo folder]

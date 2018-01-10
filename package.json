@@ -1,0 +1,26 @@
+{
+  "name": "blockchain-vote",
+  "version": "1.0.0",
+  "description": "A voting application demo for codemash",
+  "main": "index.js",
+  "dependencies": {
+    "ethereumjs-testrpc": "^6.0.3",
+    "solc": "^0.4.19",
+    "web3": "^0.20.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "testrpc": "node_modules/.bin/testrpc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi12ravi/blockchain-vote.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/abhi12ravi/blockchain-vote/issues"
+  },
+  "homepage": "https://github.com/abhi12ravi/blockchain-vote#readme"
+}

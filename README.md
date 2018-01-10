@@ -10,6 +10,13 @@ A voting application demo for codemash
 - node_modules/.bin/testrpc
 - npm install solc
 
+## Alternaticve install directions
+
+- git clone [this repo]
+- cd [cloned repo folder]
+- npm install
+- npm run testrpc
+
 ## Exercise 2.1: Compile Smart Contract
 ```
 > Web3 = require('web3')

@@ -15,7 +15,11 @@ A voting application demo for codemash
 - git clone [this repo]
 - cd [cloned repo folder]
 - npm install
-- npm run testrpc
+- npm start (will start testrpc, compile, deploy and launch dapp)
+
+## Fully automated
+- npm install
+- npm start
 
 ## Exercise 2.1: Compile Smart Contract
 ```

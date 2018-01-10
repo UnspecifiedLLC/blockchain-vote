@@ -1,6 +1,7 @@
 var fs = require("fs")
 var Web3 = require('web3')
-
+var cmd = require('node-cmd')
+cmd.run ("npm run testrpc")
 web3 = new Web3(new Web3.providers.HttpProvider("http://localhost:8545"));
 
 web3.eth.accounts
@@ -27,6 +28,10 @@ var contractInstance = VotingContract.new(["Rama", "Nick", "Jose"], {
     // If we have an address property, the contract was deployed
     if (res.address) {
         console.log('Contract address: ' + res.address)
+        console.log("Open this url in your browser", "http://localhost:8080?contract="+res.address)
+        
+        cmd.run("node_modules/http-server/bin/http-server .")
+        cmd.run("open http://localhost:8080?contract="+res.address)
     } else {
          // Log the tx, you can explore status with eth.getTransaction()
         console.log('transaction', res.transactionHash)
